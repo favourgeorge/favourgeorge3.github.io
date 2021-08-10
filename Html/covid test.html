@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Favour George
+ID - 181103037
+Department - Computer Science
+Level- 300 -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="consult1.css" rel="stylesheet">
+  <title>Covid Checker</title>
+  <link rel = "icon" type = "image/png" href = "lg.png">
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body translate="no">
+    <div class="headr">
+      <a href="corona.html#9" style="color: white"><p style="text-align: center;"><strong>CORONAVIRUS: </strong><i class="fa fa-exclamation-triangle"></i> What to do if you start to show symptoms of COVID-19 <i class="fa fa-exclamation-triangle"> </i></p></a></div>
+
+    <div class="container"></div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"><img src="logo2.png" width="auto" height="auto"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-lg-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="consult1.html">CONSULTATION </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<form id="regForm" action="">
+
+<div style="text-align:center;margin-top:40px;">
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+
+</div>
+
+
+ <div class="tab" >
+ <div class="row">
+  <div class="col">
+    <h1 style="font-size: 5em">Hi!</h1>
+ </div>
+ <div class="col" style="font-size: 5em; color: #1496d3">
+  <i style="float: right;" class="fa fa-stethoscope"></i>
+ </div>
+ </div>
+
+ <h5>You’re about to take a short COVID-19 online checkup test using the tools provided by the WHO. You will be asked a series of questions about your symptoms, your underlying health and possible exposure to the virus. You will be given medical advice on the next step to take based on your response..<br><br>
+
+ Before you take the test, please note that:</h5>
+ <ul style="font-size: 1em">
+  <h6 style="font-size: 1em"> <li> Online Diagnosis is <b>NOT</b> suggested in instances of crises. Seek immediate medical attention if  you experience severe and/or urgent symptoms.</li><br><li> Even as our Doctors are experts, Online Diagnosis does <b>NOT</b> intend to establish formal clinical guidance, analysis or treatment. <b>DO NOT</b> disregard or defer acquiring proficient clinical guidance because of information  accessed through this platform.</li><br><li> Results from Online Diagnosis are not an affirmation of your condition. Actual diagnosis can be formally obtained after running a series of tests in the medical lab.</li><br><li> Your data is totally protected. Information that you provide is anonymous and not shared with anyone. </li><br><li> All inquiries are to be replied with genuineness and lucidity in order to achieve the best results.</li><br><li> An E-mail containing a list of your possible conditions and some additional information will be sent to you shortly after your consultation. You may be required to fill another form.</li><br>
+  </h6>
+
+<div class="form-row">
+  <div class="col">
+  <input type="checkbox" id="terms" name="terms" style="width: 15%; height: 15%">
+  <label for="terms"><b> I agree to the terms and conditions.</b></label></div>
+</div>
+ </ul>
+
+ </div>
+
+
+<div class="tab">
+     <h2 style="text-align: center;">Patient's Contact Information</h2><br>
+
+     <label>Name:</label>
+    <div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Full Name" oninput="this.className = ''">
+    </div>
+  </div>
+
+<div class="form-row"><label>Age | Gender:</label></div><br>
+<div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Age" oninput="this.className = ''">
+    </div>
+    <div class="col">
+        <select id="Gender" name="Gender">
+  <option value="Gender"> Gender</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Other">Other</option>
+</select></div>
+ </div>
+
+<div class="form-row"><label>E-mail Address:</label></div><br>
+<div class="form-row">
+      <div class="col"> 
+      <input type="text" class="form-control" placeholder="Name@example.com" oninput="this.className = ''">
+    </div>
+ </div> 
+</div>
+
+<div class="tab">
+     <h2 style="text-align: center;">Underlying Health</h2><br><br>
+
+   <div class="form-row"><label>Do you smoke?</label></div><br>
+    <div class="form-row">
+    <div class="col">
+      <select id="Option" name="Option">
+      <option value="Option"> Option</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+     </select>
+    </div>
+    </div>
+
+    <div class="form-row"><label>Have you been diagnosed with high blood pressure?</label></div><br>
+    <div class="form-row">
+    <div class="col">
+      <select id="Option" name="Option">
+      <option value="Option"> Option</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+     </select>
+    </div>
+    </div>
+
+    <div class="form-row"><label>Are you diabetic?</label></div><br>
+    <div class="form-row">
+    <div class="col">
+      <select id="Option" name="Option">
+      <option value="Option"> Option</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+     </select>
+    </div>
+    </div>
+
+    <div class="form-row"><label>Do you have a condition that may weaken/has weakened your immune system?</label></div><br>
+    <div class="form-row">
+    <div class="col">
+      <select id="Option" name="Option">
+      <option value="Option"> Option</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+     </select>
+    </div>
+    </div>
+
+    <div class="form-row"><label>Are you obese?</label></div><br>
+    <div class="form-row">
+    <div class="col">
+      <select id="Option" name="Option">
+      <option value="Option"> Option</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+     </select>
+    </div>
+    </div>
+
+    <div class="form-row"><label>Do you currently have/have you had a history of any respiratory or heart disease?</label></div><br>
+    <div class="form-row">
+    <div class="col">
+      <select id="Option" name="Option">
+      <option value="Option"> Option</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+     </select>
+    </div>
+    </div>
+    
+    <div class="form-row"><label>Do you have any underlying health conditions aside from the above mentioned, that may increase your risk of being severly affected by the virus that causes COVID-19?</label></div><br>
+    <div class="form-row">
+    <div class="col">
+      <textarea type="text" class="form-control" placeholder="Please state them if you do, otherwise, type 'no'" oninput="this.className = ''" style="height: 100px"></textarea><br><br>
+    </div>
+  </div><br><br>
+</div>
+
+
+<div class="tab">
+  <div style="text-align: center;">
+  <h2 >Symptoms</h2><br>
+  <h5><i style="color: red">
+    *Tick the symptoms that you experience currently. Please only select new symptoms that are not related to your underlying diseases.*
+   </i></h5></div><br><br>
+
+  <div class="form-row"><label>Common Symptoms:</label></div><br>
+  <div class="form-row">
+  <div class="col" >
+  <input type="checkbox" id="check5" name="check" value="check" style="width: 25%; height: 25%"> 
+  <label for="check5">Fever</label></div>
+  <div class="col">
+  <input type="checkbox" id="check4" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="cheeck4">Cough</label></div>
+  <div class="col">
+  <input type="checkbox" id="check3" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="check3">Shortness of breath</label>
+    </div>
+  </div>
+
+       <div class="form-row">
+    <div class="col" >
+   <input type="checkbox" id="check5" name="check" value="check" style="width: 25%; height: 25%"> 
+  <label for="check5">Extreme exhaustion</label></div>
+  <div class="col">
+  <input type="checkbox" id="check4" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="cheeck4">Diarrhoea</label></div>
+  <div class="col">
+  <input type="checkbox" id="check3" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="check3">Sore throat</label>
+    </div>
+  </div>
+
+       <div class="form-row">
+    <div class="col" >
+   <input type="checkbox" id="check5" name="check" value="check" style="width: 25%; height: 25%"> 
+  <label for="check5">Nausea</label></div>
+  <div class="col">
+  <input type="checkbox" id="check4" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="cheeck4">Runny nose</label></div>
+  <div class="col">
+  <input type="checkbox" id="check3" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="check3">Vomiting</label>
+    </div>
+  </div>
+
+
+
+  <div class="form-row">
+  <div class="col" >
+   <input type="checkbox" id="check5" name="check" value="check" style="width: 25%; height: 25%"> 
+   <label for="check5">Headache</label></div>
+   <div class="col">
+    <input type="checkbox" id="check4" name="check" value="check" style="width: 25%; height: 25%">
+    <label for="cheeck4">Muscle pain</label></div>
+   <div class="col">
+    <input type="checkbox" id="check3" name="check" value="check" style="width: 25%; height: 25%">
+    <label for="check3">Lack of appetite</label>
+  </div>
+  </div>
+
+     <div class="form-row">
+    <div class="col" >
+   <input type="checkbox" id="check" name="check" value="check" style="width: 25%; height: 25%"> 
+  <label for="check"> Rash</label></div>
+    </div>
+
+  <div class="form-row"><label><strong style="color: red">Severe Symptoms:</strong></label></div>
+    <h6><i style="color: red">
+    *If you experience any of the following symptoms please seek immediate medical attention.  Always call before visiting your doctor or health facility.*
+   </i></h6><br><br>
+
+  <div class="form-row">
+  <div class="col" >
+  <input type="checkbox" id="check5" name="check" value="check" style="width: 25%; height: 25%"> 
+  <label for="check5">Tightness and pain in the chest</label></div></div>
+
+  <div class="form-row">
+  <div class="col">
+  <input type="checkbox" id="check4" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="cheeck4">Reduction in/loss of your sense of smell or taste</label></div></div>
+
+  <div class="form-row">
+  <div class="col">
+  <input type="checkbox" id="check3" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="check3">Incoherent speaking, confusion or disorientation</label></div>
+    </div>
+
+  <div class="form-row">
+  <div class="col">
+  <input type="checkbox" id="check3" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="check3">Redness, sore or unusual discharge in the eye</label></div>
+    </div>
+ 
+  <div class="form-row">
+  <div class="col">
+  <input type="checkbox" id="check3" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="check3">Inability to move</label></div>
+    </div>
+
+  <div class="form-row">
+  <div class="col">
+  <input type="checkbox" id="check4" name="check" value="check" style="width: 25%; height: 25%">
+  <label for="cheeck4">Blue lips or face</label></div></div> 
+
+</div>
+
+
+<div class="tab">
+<h2 style="text-align: center;">Travel History & Contact</h2><br><br>
+
+<div class="form-row"><label>What are the countries you have been to in the last 14 days?</label></div><br>
+<div class="form-row">
+    <div class="col">
+    <input type="text" class="form-control" placeholder="Eg: Nigeria, Canada etc" oninput="this.className = ''">  
+    </div>
+  </div>
+
+  <div class="form-row"><label>Have you been working or residing in an area of high risk of transmission of the virus in the last 14 days?</label></div><br>
+<div class="form-row">
+    <div class="col">
+      <select id="Option" name="Option">
+      <option value="Option"> Option</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+     </select>
+    </div>
+  </div>
+
+    <div class="form-row"><label>Have you been in close contact with a COVID-19 patient in the last 14 days?</label></div><br>
+<div class="form-row">
+    <div class="col">
+      <select id="Option" name="Option">
+      <option value="Option"> Option</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+     </select>
+    </div>
+  </div>
+
+      <div class="form-row"><label>Have you been in close contact with someone who has been exposed to the virus in the last 14 days?</label></div><br>
+<div class="form-row">
+    <div class="col">
+      <select id="Option" name="Option">
+      <option value="Option"> Option</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+     </select>
+    </div>
+  </div>
+
+</div>
+
+
+<div style="overflow:auto;">
+  <div style="float:right; display: none;">
+        <button type="button" id="nextBtn" onclick="nextPrev(1)">Next  >></button>
+  </div>
+</div>
+
+<div style="overflow:auto;">
+  <div style="float:right;">
+    <button class="button2" type="button" id="prevBtn" onclick="nextPrev(-1)"><span>Previous  </span></button>
+    <button class="button" type="button" id="nextBtn" onclick="nextPrev(1)"><span>Next  </span></button>
+  </div>
+</div>
+
+</form>
+
+
+ <footer style="padding: 0">
+  <div class="flex-container">
+  <div class="flex-item-rightt">
+  <div style="color: white">
+    <h5><i>
+    "So far, the results I've gotten from this site have
+    <br> been 100% accurate. Best online
+    <br>symptom checker in Nigeria!"
+    <br>- Amina Usman</i> &nbsp; &nbsp;&nbsp;         
+    </h5>  
+
+    <ul class="breadcrumb">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <p style="font-size: 1.5em; color: white;">
+      <i class="fa fa-facebook"></i> 
+      <i class="fa fa-twitter"></i> 
+      <i class="fa fa-envelope-square"></i> 
+      <i class="fa fa-phone" ></i>
+      <i class="fa fa-instagram"></i>
+    </p>
+
+  </div>
+  </div>
+
+  <div class="flex-item-leftt">
+    <h3><b>SIGN UP FOR OUR NEWSLETTER</b></h3>
+    <h5>Get up-to-date health and wellness<br> tips from our medical team.</h5><br>
+
+    <div class="item-left">
+      <input type="email" id="email2" name="email" placeholder="Name@example.com" required 
+      style="border-radius: 5px; width: 50%;height: 50% ">
+      <button onclick="myFunction()" type="submit" class="btn" style="height: auto; width: auto;">Submit</button>
+    </div>
+  </div>
+  </div>
+
+  <h6 style="text-align: center; background-color: #323743; color: white">© 2020 Online Diagnosis. All rights reserved.</h6>
+
+  </footer>
+
+  <div class="nk-cookie-banner alert alert-warning text-center mb-0" role="alert" style="background-color: #F0F4FF; color: black;position: fixed;">
+    &#x1F36A; This website uses cookies to ensure you get the best experience.
+    <a href="#" target="blank">Learn more</a>
+    <button type="button" class="btn btn-primary btn-sm ml-3" onclick="window.nk_hideCookieBanner()">
+    I Got It
+    </button>
+ </div>
+ 
+ <button onclick="topFunction()" id="myBtn" title="Back to the top">^</button>
+  
+
+</body>
+
+<script type="text/javascript" src="consult.js"></script>
+</html>

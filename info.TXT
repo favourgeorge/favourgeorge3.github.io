@@ -1,0 +1,89 @@
+helvetica now
+#77b3cb
+millenial pink #ffc0cb
+black
+white
+
+
+nsavbar- nav bar to cover top then options below in center
+
+PAGES
+
+HOME - side nav bar take covid test
+#f0f4ff
+
+covid test online
+
+articles on vaccine 
+
+
+
+OUR SERVICES  
+
+contact -E-mail services@onlinediagnosis.com
+phone number - 08099990000
+Instagram- onlinediagnosis_
+Facebook - Online Diagnosis
+Twitter onlinediagnosis_
+
+
+CONSULTATION-
+hi. youre aboyg to....
+do not consult here in case of emergencies
+a test woulf be better 
+
+ patient info(form)..personal information( full name, age, date of birth, gender, email address, home address, delivery address, number) 
+
+medical information( weight, blood group, genotype, if you have any health issues(options), syptoms, any other information?, are you currently on any medication?.. if yes, state... allergies?, onset of symptoms, )
+symptoms has been goin on for how long
+pregnant (yes, no, not sure)
+
+breast feeding(yes,no)
+
+please state severity and/or frequency of yourr symptoms
+eg: Mild Headache
+
+
+custom select country - https://www.w3schools.com/howto/howto_custom_select.asp
+
+pop up form- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal
+
+newsletter- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_newsletter
+
+anime- https://codepen.io/supah/embed/vXyBza?default-tab=result&theme-id=0#result-box
+
+
+recently visited a country
+
+sticky note somewhere
+
+PAGE 1- SLIDES, TALK ABOUT THE WEBSITE 
+ABOUT - WITH THE RISE IN THE PANDEMIC, 
+OUR SERVICES ENSURES THAT YOU GET FULL DIAGNOSIS AT THE COMFORT OF YOUR HOME.
+
+services - mail your diagnosis with prescription to you with price list
+you get to pay online and have it delivered to you
+deliver it
+have our workers come do a test for you 
+help find care centers nearest to you
+
+
+ABOUT US
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_avatar
+
+
+AFTER SUBMISSION- 
+
+Thank You For Contacting Online Diagnosis!
+Your response has been recorded and YOU WILL GET MORE INFORMATION SHORTLY!
+
+
+
+Contact animation:
+
+
+contact us on facebook https://codepen.io/gschier/embed/jkivt?default-tab=result&theme-id=0#result-box
+
+
+
+scroll animation
